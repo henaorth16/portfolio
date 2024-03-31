@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App.css */
+
+body, #root {
+    height: 100%;
+}
+
+#root {
+    background: linear-gradient( #00163D, #00629C, #001B43);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
