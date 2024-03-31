@@ -1,21 +1,21 @@
-import { Fade } from "react-awesome-reveal";
+import { Fade, Slide } from "react-awesome-reveal";
 import audiovisuals from "../assets/audiovisuals.png";
 import programming from "../assets/programming.png";
 import tools from "../assets/tools.png";
 const About = () => {
   return (
-    <div className="text-white mx-20">
+    <div className="text-white mx-20 my-7">
       <Fade delay={4} cascade damping={0.5}>
         <h1 className="text-4xl mb-8">who i am</h1>
       </Fade>
-      <Fade direction="right">
+      <Slide direction="up">
         <p>
           as i mentioned before i am just somebody who tries to discover
           different skills and knowledges
           <br />
           here are some lists of ma skills
         </p>
-      </Fade>
+      </Slide>
       <Fade direction="up">
         <div className="text-xl skills grid text-center justify-center items-center mt-20 gap-4">
           <h1>audio visual tools</h1>

@@ -5,7 +5,7 @@
 /* App.css */
 
 body, #root {
-    height: 100%;
+    height: min-content;
 }
 
 #root {

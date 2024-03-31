@@ -1,8 +1,8 @@
 import profile2 from '../assets/profile2.png'
-
+import { Slide } from 'react-awesome-reveal';
 const Page = () => {
   return (
-    <div className="flex justify-center mt-2 mx-28 text-white">
+    <div className="flex justify-center mx-28 text-white pt-32">
       <div className="mr-8">
         <div className="text-3xl pt-28">my name is<span className="text-[#07EAE5]">&nbsp; leul dereje</span></div>
         <div className="pt-3 text-justify">
@@ -10,7 +10,9 @@ const Page = () => {
         </div>
       </div>
       <div>
+        <Slide direction='right'>
         <img className='h-96 w-fit' src={profile2} alt="Profile" />
+        </Slide>
       </div>
     </div>
   );
