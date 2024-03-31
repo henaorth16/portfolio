@@ -1,6 +1,8 @@
 import Navbar from "./Navbar"
 import Page from "./Page"
 import About from "./About"
+import Certifications from "./Certifications"
+import Footer from "./Footer"
 
 const Home = () => {
   return (
@@ -8,6 +10,8 @@ const Home = () => {
     <Navbar />
     <Page />
     <About />
+    <Certifications />
+    <Footer />
   
   </div>
   )

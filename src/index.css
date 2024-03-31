@@ -12,5 +12,6 @@ body, #root {
     background: linear-gradient( #00163D, #00629C, #001B43);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: verdana;
 }
 
